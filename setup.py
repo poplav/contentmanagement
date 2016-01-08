@@ -35,9 +35,9 @@ def _install_notebook_extension():
     cm.update('notebook', { 
       'jupyter_cms_bundlers': {
         'notebook_associations_download': {
-          'label': 'IPython Notebook bundle (.zip)',
-          'module_name': 'urth.cms.nb_bundler',
-          'group': 'download'
+          'label': 'Container Cluster Service Bundler',
+          'module_name': 'urth.cms.nb_container_service_bundler',
+          'group': 'deploy'
         }
       }
     })
